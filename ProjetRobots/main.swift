@@ -8,10 +8,11 @@
 
 import Foundation
 
-print("Hello, World!")
+
 
 var rob = Robot(nom: "Robot")
 print(rob.position.x)
 print(rob.nom)
 
-
+var robot2 = Robot(nom:"Robot2")
+print(robot2.nom)
