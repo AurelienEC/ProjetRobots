@@ -20,4 +20,8 @@ class Robot {
     init(nom : String){
         self.nom = nom
     }
+    
+    func parler(){
+        print("Bonjour je m'appelle \(self.nom) J'ai \(self.pointsDeVie) points de vie et je me déplace à \(self.vitesseDeplacement) cases par seconde. Je suis à la case de coordonnées \(self.position)")
+    }
 }

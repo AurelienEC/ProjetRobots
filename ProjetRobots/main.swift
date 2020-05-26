@@ -16,3 +16,13 @@ print(rob.nom)
 
 var robot2 = Robot(nom:"Robot2")
 print(robot2.nom)
+rob.pointsDeVie = 10
+
+
+rob.parler()
+robot2.parler()
+
+rob.position.x = 2
+rob.position.y = 3
+
+rob.parler()
