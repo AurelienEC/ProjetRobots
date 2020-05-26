@@ -10,3 +10,8 @@ import Foundation
 
 print("Hello, World!")
 
+var rob = Robot(nom: "Robot")
+print(rob.position.x)
+print(rob.nom)
+
+
